@@ -11,7 +11,7 @@ body::before {
     position: fixed;
     filter:blur(9px);
     height: 100vh;
-    background-image: url("../images/bus.webp");
+    background-image: url("bus.webp");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
