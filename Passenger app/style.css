@@ -1,0 +1,84 @@
+html,
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+body::before {
+    content: "";
+    inset: 0;
+    position: fixed;
+    filter:blur(9px);
+    height: 100vh;
+    background-image: url("../images/bus.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.number-value {
+    text-align: center;
+    font-size: 70px;
+}
+
+.saved-value {
+    text-align: center;
+    font-size: 70px;
+}
+.all-container{
+    padding-top: 40px;
+}
+
+.universal-container {
+    background-color: rgba(81, 83, 85, 0.5);
+    opacity: 0.9;
+    width: 500px;
+    height: 900px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 20px; 
+   }
+
+.whole-container {
+    display: grid;
+    gap: 30px;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.increase-btn,
+.decrease-btn,
+.save-btn {
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.increase-btn {
+    background-color: rgb(21, 95, 21);
+    border: 1px solid green;
+}
+
+.decrease-btn {
+    background-color: rgb(128, 17, 17);
+    border: 1px solid red;
+}
+
+.save-btn {
+    background-color: rgb(7, 75, 75);
+    border: 1px solid teal;
+    
+}
